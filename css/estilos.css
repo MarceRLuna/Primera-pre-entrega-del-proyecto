@@ -1,0 +1,234 @@
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*estilos del index.html*/
+
+/*header*/
+
+header div img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor1{
+    height: 540px;
+    width: 1520px;    
+}
+
+.titulo1{
+    text-align: center;
+    color: whitesmoke;
+    background-color: brown;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.menu{
+    height: 80px;
+    background-color: brown;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(44, 43, 121);
+        
+}
+
+.menu nav ul li{
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 20px 20px 20px 20px;
+    margin-top: 8px;
+    margin-right: 20px;
+    border-radius: 10px; /*propiedad para redondear angulos del contenedor*/
+}
+
+/*main*/
+
+.main1{
+    background-color: antiquewhite;
+    width: 1520;
+    height: 410px;
+    display: flex;
+}
+
+.main1 div img{
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+    margin: 5% 5% 5% 5%;
+}
+
+.main1 div h2{
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    margin-bottom: 20px;
+    color: blue;
+    }
+
+.textomain{
+    text-align: justify;
+    width: 60%;
+    height: 50%;
+    margin-top: 15px;
+    letter-spacing: 3px;
+}
+
+/*footer*/
+
+footer{
+    background-color: whitesmoke;
+}
+
+
+footer h3{
+    background-color: royalblue;
+    text-align: center;
+}
+
+footer div img{
+    height: 40px;
+    width: 40px;
+    margin-top: 7px;
+    margin-left: 500px;
+    border-radius: 10px;    
+}
+
+/*estilos de alquileres.html*/
+
+/*main*/
+
+.alquileres{
+    background-color: chocolate;
+}
+
+.alquileres__1{
+    display: inline-block;
+    margin: 100px 60px 100px 200px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.alquileressecundarios{
+    background-color: cornflowerblue;
+    
+}
+
+.alquileres__2{
+    display: inline-block;
+    margin: 100px 60px 100px 200px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*estilos de Alquilerpropiedad1*/
+
+.deptouno{
+    background-color: blue;
+    margin-top: 2px;
+    height: 1030px;
+}
+
+.deptounofoto{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 30px;
+    top: 190px;
+}
+
+.deptounofoto__dos{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 728px;
+    top: -560px;
+}
+
+.deptounofoto__tres{
+    height: 50%;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.alquilertexto{
+    background-color: wheat;
+    text-align: justify;
+    height: 50%;
+    width: 80%;
+    margin: 5px 0px 0px 110px;
+    letter-spacing: 3px;
+    font-family: 'Rowdies', cursive;
+}
+
+.alquilertexto h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.alquilertextodos{
+    background-color: wheat;
+    text-align: justify;
+    height: 50%;
+    width: 80%;
+    margin: 20px 0px 10px 110px;
+    letter-spacing: 3px;
+    font-family: 'Rowdies', cursive;
+    
+}
+
+.alquilertextodos h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*estilos contacto*/
+
+.maincontacto{
+    text-align: center;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    margin: 15px 10px 10px 10px;
+    font-size: 15px;
+    
+}
+
+.maincontacto h2{
+    background-color: rgb(196, 192, 192);
+    padding: 20px 20px 20px 20px;
+    width: 90%;
+    margin: 30px 0px 50px 50px
+}
+
+/*estilos sobrenosotros*/
+
+.mainnosotros{
+    background-color: chocolate;
+    padding: 30px;
+}
+
+.mainnosotros img{
+    margin-top: 15px;
+    position: relative;
+    left: 200px;
+}
+
+.mainnosotros div{
+    margin-top: 30px;
+    background-color: aliceblue;
+    text-align: justify;
+}
